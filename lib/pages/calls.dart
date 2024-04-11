@@ -10,7 +10,7 @@ class Calls extends StatelessWidget {
         onPressed: () {},
         backgroundColor: Colors.teal.shade700,
         shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(6)),
-        child: Icon(Icons.add_ic_call_sharp),
+        child: Icon(Icons.add_ic_call_sharp, color: Colors.white),
       ),
       body: SingleChildScrollView(
         child: Column(children: [

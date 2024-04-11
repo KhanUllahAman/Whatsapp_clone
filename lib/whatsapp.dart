@@ -21,24 +21,24 @@ class _WhatsAppState extends State<WhatsApp> {
       child: Scaffold(
           appBar: AppBar(
             backgroundColor: Colors.teal.shade700,
-            title: Text("WhatsApp"),
+            title: Text("WhatsApp", style: TextStyle(color: Colors.white) ),
             bottom: TabBar(
               indicatorWeight: 5,
               indicatorColor: Colors.white,
               labelPadding: EdgeInsets.only(bottom: 5),
               tabs: [
-                Icon(Icons.groups_outlined),
-                Text("Chats"),
-                Text("Updates"),
-                Text("Calls"),
+                Icon(Icons.groups_outlined, color: Colors.white,),
+                Text("Chats", style: TextStyle(color: Colors.white),),
+                Text("Updates", style: TextStyle(color: Colors.white)),
+                Text("Calls", style: TextStyle(color: Colors.white)),
               ],
             ),
             actions: [
-              Icon(Icons.camera_alt_outlined),
+              Icon(Icons.camera_alt_outlined, color: Colors.white),
               SizedBox(width: 15),
-              Icon(Icons.search),
+              Icon(Icons.search, color: Colors.white),
               SizedBox(width: 15),
-              Icon(Icons.more_vert_outlined),
+              Icon(Icons.more_vert_outlined, color: Colors.white),
             ],
           ),
           body: TabBarView(

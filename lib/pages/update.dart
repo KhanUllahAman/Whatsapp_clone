@@ -31,7 +31,7 @@ class Update extends StatelessWidget {
             shape: RoundedRectangleBorder(
               borderRadius: BorderRadius.circular(6)
             ),
-            child: Icon(Icons.camera_alt),
+            child: Icon(Icons.camera_alt, color: Colors.white),
           ),
         ],
       ),
@@ -465,7 +465,7 @@ class Update extends StatelessWidget {
                             ElevatedButton(
                               onPressed: () {},
                               style: ElevatedButton.styleFrom(
-                                primary: Color(0xFFE0FEF2),
+                                backgroundColor: Color(0xFFE0FEF2),
                                 minimumSize: Size(150, 50),
                                 shape: RoundedRectangleBorder(
                                   borderRadius: BorderRadius.circular(20),
@@ -546,7 +546,7 @@ class Update extends StatelessWidget {
                             ElevatedButton(
                               onPressed: () {},
                               style: ElevatedButton.styleFrom(
-                                primary: Color(0xFFE0FEF2),
+                                backgroundColor: Color(0xFFE0FEF2),
                                 minimumSize: Size(150, 50),
                                 shape: RoundedRectangleBorder(
                                   borderRadius: BorderRadius.circular(20),
@@ -627,7 +627,7 @@ class Update extends StatelessWidget {
                             ElevatedButton(
                               onPressed: () {},
                               style: ElevatedButton.styleFrom(
-                                primary: Color(0xFFE0FEF2),
+                                backgroundColor: Color(0xFFE0FEF2),
                                 minimumSize: Size(150, 50),
                                 shape: RoundedRectangleBorder(
                                   borderRadius: BorderRadius.circular(20),
@@ -708,7 +708,7 @@ class Update extends StatelessWidget {
                             ElevatedButton(
                               onPressed: () {},
                               style: ElevatedButton.styleFrom(
-                                primary: Color(0xFFE0FEF2),
+                                backgroundColor: Color(0xFFE0FEF2),
                                 minimumSize: Size(150, 50),
                                 shape: RoundedRectangleBorder(
                                   borderRadius: BorderRadius.circular(20),
@@ -789,7 +789,7 @@ class Update extends StatelessWidget {
                             ElevatedButton(
                               onPressed: () {},
                               style: ElevatedButton.styleFrom(
-                                primary: Color(0xFFE0FEF2),
+                                backgroundColor: Color(0xFFE0FEF2),
                                 minimumSize: Size(150, 50),
                                 shape: RoundedRectangleBorder(
                                   borderRadius: BorderRadius.circular(20),
@@ -870,7 +870,7 @@ class Update extends StatelessWidget {
                             ElevatedButton(
                               onPressed: () {},
                               style: ElevatedButton.styleFrom(
-                                primary: Color(0xFFE0FEF2),
+                                backgroundColor: Color(0xFFE0FEF2),
                                 minimumSize: Size(150, 50),
                                 shape: RoundedRectangleBorder(
                                   borderRadius: BorderRadius.circular(20),
@@ -951,7 +951,7 @@ class Update extends StatelessWidget {
                             ElevatedButton(
                               onPressed: () {},
                               style: ElevatedButton.styleFrom(
-                                primary: Color(0xFFE0FEF2),
+                                backgroundColor: Color(0xFFE0FEF2),
                                 minimumSize: Size(150, 50),
                                 shape: RoundedRectangleBorder(
                                   borderRadius: BorderRadius.circular(20),
@@ -1032,7 +1032,7 @@ class Update extends StatelessWidget {
                             ElevatedButton(
                               onPressed: () {},
                               style: ElevatedButton.styleFrom(
-                                primary: Color(0xFFE0FEF2),
+                                backgroundColor: Color(0xFFE0FEF2),
                                 minimumSize: Size(150, 50),
                                 shape: RoundedRectangleBorder(
                                   borderRadius: BorderRadius.circular(20),

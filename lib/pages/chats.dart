@@ -10,7 +10,7 @@ class Chats extends StatelessWidget {
         onPressed: () {},
         backgroundColor: Colors.teal.shade700,
         shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(5)),
-        child: Icon(Icons.chat_sharp),
+        child: Icon(Icons.chat_sharp, color: Colors.white),
       ),
       body: SingleChildScrollView(
         padding: EdgeInsets.only(bottom: 24),
